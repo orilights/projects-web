@@ -1,9 +1,17 @@
 import type { ProjectConfig } from '@/types'
 
+export const navs = [{
+  title: '主页',
+  link: 'https://orilight.top/',
+}, {
+  title: '博客',
+  link: 'https://blog.amarea.cn/',
+}]
+
 export const projects: ProjectConfig[] = [{
-  name: 'HoyoGameFiles',
+  name: '游戏文件列表',
   status: 'production',
-  description: '米哈游游戏文件在线列表',
+  description: '在线列出游戏版本、游戏包、更新包列表与游戏文件列表',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669baea23962f.png',
   link: {
     website: 'https://files.hk4e.com/',
@@ -12,15 +20,16 @@ export const projects: ProjectConfig[] = [{
 }, {
   name: 'API Tracker',
   status: 'production',
-  description: 'API 数据变化监控工具，2024/5/29 开始记录部分米哈游API',
+  description: 'API 数据变化监控工具，2024/5/29 开始监控部分米哈游API',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669ba6f1001e1.png',
   link: {
     website: 'https://api-tracker.hk4e.com/',
+    github: 'https://github.com/orilights/api-tracker',
   },
 }, {
-  name: 'HoyoNews',
+  name: '米哈游官网新闻检索',
   status: 'production',
-  description: '米哈游游戏官网新闻检索工具',
+  description: '一个用于检索米哈游旗下游戏官网新闻的小工具，支持搜索和分类检索',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669ba7d045f08.png',
   link: {
     website: 'https://news.hk4e.com/',
@@ -36,9 +45,9 @@ export const projects: ProjectConfig[] = [{
     github: 'https://github.com/orilights/PixivCollection',
   },
 }, {
-  name: 'ECharts Practice',
+  name: 'ECharts 练习',
   status: 'experimental',
-  description: 'ECharts 练习项目，存放一些收集的统计数据',
+  description: '一些个人收集数据的可视化，顺带练习 ECharts',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669ba5ef85286.png',
   link: {
     website: 'https://chart.hk4e.com/',
