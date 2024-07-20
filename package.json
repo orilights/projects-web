@@ -1,0 +1,31 @@
+{
+  "name": "projects-web",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lintf": "eslint . --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.3",
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.7.0",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.5",
+    "typescript": "^5.5.3",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.3.3",
+    "vue-tsc": "^2.0.26"
+  }
+}
