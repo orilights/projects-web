@@ -8,6 +8,8 @@ export const navs = [{
   link: 'https://blog.amarea.cn/',
 }]
 
+export const repoStatusApi = 'https://api-status.orilight.top/repos'
+
 export const projects = ref<ProjectConfig[]>([{
   name: '游戏文件列表',
   status: 'production',
