@@ -4,6 +4,7 @@ export interface ProjectConfig {
   description: string
   cover?: string
   lastUpdated?: string
+  lastPushed?: string
   star?: number
   link: {
     website: string

@@ -15,6 +15,7 @@ function fetchRepoStatus() {
         const repo = data.find(_ => _.full_name === project.link.github)
         if (repo) {
           project.lastUpdated = repo.updated_at
+          project.lastPushed = repo.pushed_at
           project.star = repo.stargazers_count
         }
       }

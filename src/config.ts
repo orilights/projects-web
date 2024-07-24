@@ -72,4 +72,22 @@ export const projects = ref<ProjectConfig[]>([{
     website: 'https://sstl-demo.orilight.top/',
     github: 'orilights/ServerStatus-Theme-Light',
   },
+}, {
+  name: 'Startpage',
+  status: 'experimental',
+  description: '开发中的启动页，支持搜索引擎切换与书签功能',
+  cover: 'https://icdn.amarea.cn/upload/2024/07/66a10412dfb51.png',
+  link: {
+    website: 'https://start.orilight.top/',
+    github: 'orilights/Startpage',
+  },
+}, {
+  name: '倒计时',
+  status: 'experimental',
+  description: '简易网页倒计时，服务端开发中',
+  cover: 'https://icdn.amarea.cn/upload/2024/07/66a122dca0b52.png',
+  link: {
+    website: 'https://countdown.hk4e.com/',
+    github: 'orilights/Countdown',
+  },
 }])
