@@ -17,12 +17,12 @@ export const projects = ref<ProjectConfig[]>([{
   cover: 'https://icdn.amarea.cn/upload/2024/07/669baea23962f.png',
   link: {
     website: 'https://files.hk4e.com/',
-    github: 'orilights/hoyo-game-files',
+    github: 'orilights/hoyo-files',
   },
 }, {
   name: 'API Tracker',
   status: 'production',
-  description: 'API 数据变化监控工具，2024/5/29 开始监控部分米哈游API',
+  description: '监测一些个人感兴趣的 API 变化并记录历史数据',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669ba6f1001e1.png',
   link: {
     website: 'https://api-tracker.hk4e.com/',
@@ -34,8 +34,8 @@ export const projects = ref<ProjectConfig[]>([{
   description: '一个用于检索米哈游旗下游戏官网新闻的小工具，支持搜索和分类检索',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669ba7d045f08.png',
   link: {
-    website: 'https://news.hk4e.com/',
-    github: 'orilights/hoyo-news-search',
+    website: 'https://news-eo.amarea.cn/',
+    github: 'orilights/hoyo-news-web',
   },
 }, {
   name: 'PixivCollection',
@@ -74,8 +74,8 @@ export const projects = ref<ProjectConfig[]>([{
   },
 }, {
   name: 'Startpage',
-  status: 'experimental',
-  description: '开发中的启动页，支持搜索引擎切换与书签功能',
+  status: 'deprecated',
+  description: '一个启动页，支持搜索引擎切换与书签功能',
   cover: 'https://icdn.amarea.cn/upload/2024/07/66a10412dfb51.png',
   link: {
     website: 'https://start.orilight.top/',
@@ -83,7 +83,7 @@ export const projects = ref<ProjectConfig[]>([{
   },
 }, {
   name: '倒计时',
-  status: 'experimental',
+  status: 'deprecated',
   description: '简易网页倒计时，服务端开发中',
   cover: 'https://icdn.amarea.cn/upload/2024/07/66a122dca0b52.png',
   link: {
