@@ -16,35 +16,44 @@ export const projects = ref<ProjectConfig[]>([{
   description: '在线列出游戏版本、游戏包、更新包列表与游戏文件列表',
   cover: 'https://icdn.amarea.cn/upload/2024/07/669baea23962f.png',
   link: {
-    website: 'https://files.hk4e.com/',
+    website: 'https://hoyo-files.amarea.cn/',
     github: 'orilights/hoyo-files',
   },
 }, {
-  name: 'API Tracker',
+  name: '米游官网新闻检索',
   status: 'production',
-  description: '监测一些个人感兴趣的 API 变化并记录历史数据',
-  cover: 'https://icdn.amarea.cn/upload/2024/07/669ba6f1001e1.png',
-  link: {
-    website: 'https://api-tracker.hk4e.com/',
-    github: 'orilights/api-tracker',
-  },
-}, {
-  name: '米哈游官网新闻检索',
-  status: 'production',
-  description: '一个用于检索米哈游旗下游戏官网新闻的小工具，支持搜索和分类检索',
-  cover: 'https://icdn.amarea.cn/upload/2024/07/669ba7d045f08.png',
+  description: '一个用于检索米游官网新闻的小工具',
+  cover: 'https://icdn.amarea.cn/upload/2025/10/68ddfb5d0cbca.png',
   link: {
     website: 'https://news-eo.amarea.cn/',
     github: 'orilights/hoyo-news-web',
   },
 }, {
+  name: '米哈游启动器背景收集',
+  status: 'production',
+  description: '收集了米哈游启动器使用的背景<br>数据起始于2024年6月',
+  cover: 'https://icdn.amarea.cn/upload/2025/10/68ddfaf1d08c0.png',
+  link: {
+    website: 'https://hyp-bg.amarea.cn/',
+    github: 'orilights/hoyoplay-background',
+  },
+}, {
   name: 'PixivCollection',
   status: 'production',
   description: '在线 Pixiv 收藏夹，支持筛选图片并在线查看',
-  cover: 'https://icdn.amarea.cn/upload/2024/07/669bb78c268e0.png',
+  cover: 'https://icdn.amarea.cn/upload/2025/10/68ddfaf1c4d2b.png',
   link: {
     website: 'https://pixiv.orilight.top/',
     github: 'orilights/PixivCollection',
+  },
+}, {
+  name: 'API Tracker',
+  status: 'production',
+  description: '监测一些个人感兴趣的 API 数据更新',
+  cover: 'https://icdn.amarea.cn/upload/2024/07/669ba6f1001e1.png',
+  link: {
+    website: 'https://api-tracker.hk4e.com/',
+    github: 'orilights/api-tracker',
   },
 }, {
   name: 'ECharts 练习',
@@ -84,7 +93,7 @@ export const projects = ref<ProjectConfig[]>([{
 }, {
   name: '倒计时',
   status: 'deprecated',
-  description: '简易网页倒计时，服务端开发中',
+  description: '简易网页倒计时',
   cover: 'https://icdn.amarea.cn/upload/2024/07/66a122dca0b52.png',
   link: {
     website: 'https://countdown.hk4e.com/',

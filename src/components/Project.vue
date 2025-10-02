@@ -47,9 +47,7 @@ function toLocaleTime(time: string) {
           <h1 class="mb-1 font-bold">
             {{ data.name }}
           </h1>
-          <div class="text-sm">
-            {{ data.description }}
-          </div>
+          <div class="text-sm" v-html="data.description" />
         </div>
         <div class="mt-2 flex items-center">
           <a
